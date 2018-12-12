@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8F5E9"
+    >
+
+    <com.synnapps.carouselview.CarouselView
+        android:id="@+id/cor1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#FF0000"
+        app:indicatorGravity="bottom|center"
+        app:radius="4dp"
+        app:slideInterval="3000"
+
+
+        />
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_marginTop="7dp"
+        app:cardBackgroundColor="#FFFFFF"
+        android:id="@+id/card1"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp"
+        app:cardUseCompatPadding="true"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/h1"
+                android:foregroundGravity="center"
+                android:id="@+id/img1"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_toRightOf="@+id/img1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+
+                android:text="Add House"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:textSize="17dp"
+
+                android:id="@+id/txt11"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/img1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="Sell your houses in a blink!\nIt's Easy,It's Simple,Yes It's free"
+
+                android:textColor="#757575"
+                android:textStyle="italic"
+                android:textSize="15dp"
+                android:id="@+id/txt12"
+
+
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/img1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="70dp"
+                android:text="Post Property >"
+                android:gravity="center"
+                android:textColor="#B71C1C"
+
+                android:textSize="18dp"
+                android:id="@+id/txt13"
+                />
+
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_marginTop="1dp"
+        app:cardBackgroundColor="#FFFFFF"
+        android:id="@+id/card2"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp"
+        app:cardUseCompatPadding="true"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/card2"
+                android:id="@+id/img2"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_toRightOf="@+id/img2"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="100dp"
+                android:text="Houses in Demand!!"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:textSize="17dp"
+
+                android:id="@+id/txt21"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/img2"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="Know the cheapest, nearest, most Rated and latest houses"
+
+                android:textColor="#757575"
+                android:textStyle="italic"
+                android:textSize="15dp"
+                android:id="@+id/txt22"
+            />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/img2"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="70dp"
+                android:text="Check Property >"
+                android:gravity="center"
+                android:textColor="#B71C1C"
+
+                android:textSize="18dp"
+                android:id="@+id/txt23"
+                />
+
+
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

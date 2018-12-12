@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "469314336163",
+    "firebase_url": "https://dreamtreasure-116f2.firebaseio.com",
+    "project_id": "dreamtreasure-116f2",
+    "storage_bucket": "dreamtreasure-116f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469314336163:android:ff5ff1427ba4ebca",
+        "android_client_info": {
+          "package_name": "com.example.sumansinghrajput.dreamtreasure"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469314336163-c8omsjfmivl6ta4ocs3k99kciqs1rhlt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sumansinghrajput.dreamtreasure",
+            "certificate_hash": "4e70d84ff3536a8634f8ca63cb407680d2641d17"
+          }
+        },
+        {
+          "client_id": "469314336163-5o8ru9sgqsd1uujcu42g4am0kl44iqoe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCv5_ZprpXMH09zeblhqKlWqyc5JKkzXBc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "469314336163-5o8ru9sgqsd1uujcu42g4am0kl44iqoe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

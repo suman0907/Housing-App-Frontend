@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:id="@+id/home"
+
+        />
+
+
+
+    <item android:title="Search">
+        <menu>
+            <item
+                android:id="@+id/buy"
+
+                android:title="Properties For Buy" />
+            <item
+                android:id="@+id/rent"
+                android:title="Properties For Rent" />
+        </menu>
+    </item>
+
+
+    <item android:title="Sell/rent your property">
+        <menu>
+            <item
+                android:id="@+id/sell"
+
+                android:title="Add your property" />
+
+        </menu>
+    </item>
+
+
+
+    <item android:title="We Listen"
+        
+        >
+        <menu>
+            <item
+                android:id="@+id/feedback"
+                android:title="FeedBack" />
+            <item
+                android:id="@+id/rateus"
+                android:title="Rate Us" />
+        </menu>
+    </item>
+
+
+    <item android:title="Share"
+
+        android:id="@+id/share"
+
+
+
+        />
+
+    <item android:title="Settings"
+
+        android:id="@+id/setting"
+        />
+
+    <item android:title="My Account"
+        android:id="@+id/account"
+        />
+    <item android:title="Need Help?"
+        android:id="@+id/help"
+        />
+
+
+
+
+</menu>

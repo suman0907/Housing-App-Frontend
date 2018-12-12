@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFCDD2">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fill The Details Of Your Property"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Property Type"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginTop="15dp"
+            android:textStyle="italic"
+            android:id="@+id/id1"
+
+            />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@+id/id1"
+            android:id="@+id/spin1"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Capacity"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="95dp"
+            android:textStyle="italic"
+            android:id="@+id/id2"
+            android:layout_toRightOf="@+id/spin1"
+
+            />
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@+id/id2"
+            android:id="@+id/spin2"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apartment Type"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginTop="45dp"
+            android:textStyle="italic"
+            android:id="@+id/id3"
+            android:layout_below="@+id/spin2"
+            android:gravity="center"
+            android:layout_marginLeft="70dp"
+
+            />
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@+id/id3"
+            android:id="@+id/spin3"
+            android:layout_below="@+id/id1"
+            android:layout_marginTop="35dp"
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:hint="enter the address"
+            android:id="@+id/id4"
+            android:layout_below="@+id/id3"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            android:layout_marginTop="15dp"
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:hint="Enter the cost"
+            android:id="@+id/id5"
+            android:layout_below="@+id/id4"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            android:layout_marginTop="15dp"
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:hint="Enter the description"
+            android:id="@+id/id6"
+            android:layout_below="@+id/id5"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            android:layout_marginTop="15dp"
+
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:hint="Landmark"
+            android:id="@+id/id7"
+            android:layout_below="@+id/id6"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            android:layout_marginTop="15dp"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_toRightOf="@+id/id7"
+            android:text="Submit"
+            android:layout_below="@+id/id6"
+            android:layout_marginLeft="150dp"
+            android:id="@+id/sub"
+            />
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:text="Add Image"
+            android:layout_below="@+id/id7"
+            android:id="@+id/img"
+            />
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_toRightOf="@+id/img"
+            android:layout_below="@+id/id7"
+            android:text="Add Broker Info"
+            android:id="@+id/broker"
+            />
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
